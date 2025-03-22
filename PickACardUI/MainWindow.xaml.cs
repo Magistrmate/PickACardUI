@@ -25,11 +25,6 @@ namespace PickACardUI
             InitializeComponent();
         }
 
-        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-
-        }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             string[] pickedCards = CardPicker.PickSomeCards((int)numberOfCards.Value);
